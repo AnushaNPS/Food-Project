@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        .container{
+            width:360px;
+            height:250px;
+            border:1px solid black;
+            background-color: rgb(219, 131, 49);
+            border-radius:20px;
+            border:none;
+            margin:100px 100px 100px 43%;
+            box-shadow:  0 0 10px 0px black;
+        }
+        .container h1{
+            font-size:30px;
+            padding:15px;
+            text-align: center;
+            
+        }
+        .container form{
+            margin:30px;
+            font-size:17px;
+        }
+        .container input{
+            padding:2px;
+        }
+        .container label{
+            padding: 3px;
+        }
+    </style>
+</head>
+<body class="container">
+    <h1>Registration Form</h1>
+    <form id="registration-form">
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" placeholder="Enter first name"><br><br>
+        <label for="lname">Last Name</label>
+        <input type="text" name="lname" placeholder="Enter Last name"><br><br>
+        <label for="number">Phone Number:</label>
+        <input type="number" name="number" placeholder="Enter Phone number"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+    <script src="project2.js"></script>
+</body>
+</html>
